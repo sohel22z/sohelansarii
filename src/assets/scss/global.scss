@@ -10,19 +10,13 @@
 
 body {
     font-family: 'Proza Libre', sans-serif;
+    color: #1a1a1a;
 }
 
 a {
     text-decoration: inherit;
 }
 
-body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-}
 
 button {
     border-radius: 8px;
