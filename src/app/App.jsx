@@ -31,8 +31,6 @@ const App = () => {
         <Link to="/vite-react-router/contact">Contact</Link>
       </nav>
 
-      <Outlet />
-
       <RouterProvider router={router} />
     </>
 
