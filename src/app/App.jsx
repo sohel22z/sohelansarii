@@ -1,22 +1,26 @@
-import Home from "../pages/home"
-import About from "../pages/about"
+import { Col, Container, Row } from "react-bootstrap";
+import Header from "./components/header";
 
 const App = () => {
 
   return (
 
     <>
-      <Home />
 
-      <div>
-        <h1>Hello World! </h1>
-      </div>
+      <Header />
 
-      <About />
+      <Container>
+        <Row>
+          <Col lg={12} className="text-center">
+            <h1 className="fs-28 fw-500 text-danger">UNDER DEVELOPMENT</h1>
+          </Col>
+        </Row>
+      </Container>
+
     </>
 
-  )
+  );
 
-}
+};
 
 export default App;
