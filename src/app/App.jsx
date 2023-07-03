@@ -10,11 +10,17 @@ const App = () => {
       <Header />
 
       <Container>
+
         <Row>
+
           <Col lg={12} className="text-center">
-            <h1 className="fs-28 fw-500 text-danger">UNDER DEVELOPMENT</h1>
+
+            {/* <h1 className="fs-28 fw-500 text-danger">UNDER DEVELOPMENT</h1> */}
+
           </Col>
+
         </Row>
+
       </Container>
 
     </>

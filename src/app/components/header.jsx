@@ -9,9 +9,9 @@ const Header = () => {
 
         <>
 
-            <Navbar collapseOnSelect expand="lg" className="navbar_8 bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="navbar_8 bg-danger">
                 <Container>
-                    <Navbar.Brand className='fs-28 fw-500'>sohel ansari</Navbar.Brand>
+                    <Navbar.Brand className='fs-26 fw-500 text-white'>-</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
